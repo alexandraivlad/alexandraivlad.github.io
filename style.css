@@ -1,0 +1,262 @@
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+  }
+
+  html {
+    scroll-behavior: smooth;
+   }
+body{
+    /* background-color:#00cccc; */
+    background-color: #27ae60;
+   
+    
+}
+/* Butoane meniu */
+
+.butoaneMeniu{
+    display:block;
+    background-color:#e5e5ff;
+    border:0;
+    margin-bottom:15px;
+    padding: 10px 15px;
+    width:200px;
+    cursor: pointer;
+    font-family: OpenSans;
+    font-size:20px;
+    font-weight: 500;
+    src: url(fonts/OpenSans-Regular.ttf);
+    border-radius:10px;
+} 
+.butoaneMeniu:focus{
+    outline: none;
+}
+
+.butoaneMeniu:hover{
+    background-color:#D6A2E8;
+
+}
+
+/* Fontul pentru titlu, aliniere si size */
+#titlu{
+    font-family: 'DancingScript';
+    font-size: 35px;
+    text-align:center;
+    
+}
+
+.introducereText{
+    font-family: 'DancingScript';
+    font-size: 20px;
+    text-align:right;
+    margin:5px;
+}
+
+.container{
+    display:flex;
+}
+#container1{
+   flex: 1;
+    
+}
+#container2{
+    flex: 1;
+}
+#container3{
+    flex: 1;
+}
+#me{
+    display:block;
+    margin:0 auto;
+    border-radius: 15px;
+}
+#coperta{
+    display:block; 
+    margin: 0px auto;
+    border-radius: 25px;
+}
+
+
+.textOne{
+    display:flex;
+
+}
+#text1{
+    flex: 1;
+}
+#text11{
+    display:block;
+    flex:2;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family:'DancingScript';
+    margin:2px;
+}
+#text12{
+    flex:1;
+}
+
+.poze{
+    display: flex;
+    
+}
+#poza1{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza2{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza3{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze1{
+    display: flex;
+    
+}
+#poza4{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza5{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza6{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze2{
+    display: flex;
+    
+}
+#poza7{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza8{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza9{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze3{
+    display: flex;
+    
+}
+#poza10{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza11{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza12{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.poze4{
+    display: flex;
+    
+}
+#poza13{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#poza14{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#poza15{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.containerTabel{
+    display:flex;
+    margin:auto 0;
+    align-items:center;
+    justify-content:center;
+}
+
+#t01{
+    
+    border:1px solid black;
+    widows: 50%;
+    border-collapse: collapse;
+    flex: 0.5;
+    
+}
+.data{
+    border:1px solid black; 
+}
+
+.icoane{
+    display:flex;
+    margin:auto 0;
+    align-items:center;
+    justify-content:center;
+}
+
+  .instagram {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    
+  }
+  .link{
+      color: none;
+  }
